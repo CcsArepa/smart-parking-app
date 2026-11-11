@@ -1,0 +1,12 @@
+# Configuración del servidor (Netlify / Cloudflare Pages).
+/*
+  # Revalidar SIEMPRE con el servidor: la app instalada en el iPhone recibe la
+  # versión más reciente en cuanto se publica, sin tener que borrarla y
+  # volver a agregarla. Si nada cambió, el servidor responde "304" (rápido).
+  Cache-Control: no-cache
+  # Aísla la página para que Chrome/Android pueda usar WebAssembly con varios
+  # hilos (más fluido). "credentialless" permite seguir cargando el mapa y
+  # las fuentes de otros sitios.
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: credentialless
+  X-Content-Type-Options: nosniff

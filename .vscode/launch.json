@@ -1,0 +1,13 @@
+{
+  // Configuración para correr la app con F5 (requiere la extensión "Flutter").
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Smart Parking (debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "flutterMode": "debug"
+    }
+  ]
+}
