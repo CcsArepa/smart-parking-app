@@ -13,7 +13,7 @@
 [![Tests](https://img.shields.io/badge/Tests-21%20passing-2E7D3E)](#testing)
 [![License: MIT](https://img.shields.io/badge/License-MIT-111111)](LICENSE)
 
-[**Live Demo**](https://sparkly-chaja-5f8bec.netlify.app) &nbsp;|&nbsp;
+[**Live Demo**](https://smartparkingudlap.netlify.app) &nbsp;|&nbsp;
 [Screenshots](#screenshots) &nbsp;|&nbsp;
 [Architecture](#architecture) &nbsp;|&nbsp;
 [UX Design](#user-centered-design)
